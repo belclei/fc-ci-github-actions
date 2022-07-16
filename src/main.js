@@ -11,4 +11,4 @@ function fahrenheitToCelsius(value) {
   return ((value - 32) * 5) / 9
 }
 
-module.exports = { celsiusToFahrenheit, celsiusToKelvin, kelvinToCelsius, fahrenheitToCelsius }
+export default { celsiusToFahrenheit, celsiusToKelvin, kelvinToCelsius, fahrenheitToCelsius }
