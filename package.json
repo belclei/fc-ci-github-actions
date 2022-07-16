@@ -1,0 +1,15 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "converts values to different measurement units",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Belclei Fasolo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "sonar-scanner": "^3.1.0"
+  }
+}
