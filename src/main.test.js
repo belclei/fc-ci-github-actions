@@ -1,8 +1,8 @@
-import { celsiusToFahrenheit, fahrenheitToCelsius } from './main'
+const convert = require('./main')
 
 test('0°C must be 32°F', () => {
-  expect(celsiusToFahrenheit(0)).toBe(32)
+  expect(convert.celsiusToFahrenheit(0)).toBe(32)
 })
 test('32°F must be 0°C', () => {
-  expect(fahrenheitToCelsius(32)).toBe(0)
+  expect(convert.fahrenheitToCelsius(32)).toBe(0)
 })
