@@ -10,5 +10,21 @@ function kelvinToCelsius(value) {
 function fahrenheitToCelsius(value) {
   return ((value - 32) * 5) / 9
 }
-
-module.exports = { celsiusToFahrenheit, celsiusToKelvin, kelvinToCelsius, fahrenheitToCelsius }
+function kilobyteToByte(value) {
+  return value * 1024
+}
+function megabyteToByte(value) {
+  return kilobyteToByte(value) * 1024
+}
+function gigabyteToByte(value) {
+  return megabyteToByte(value) * 1024
+}
+module.exports = {
+  celsiusToFahrenheit,
+  celsiusToKelvin,
+  kelvinToCelsius,
+  fahrenheitToCelsius,
+  kilobyteToByte,
+  megabyteToByte,
+  gigabyteToByte
+}
