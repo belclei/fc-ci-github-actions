@@ -1,15 +1,3 @@
-function celsiusToFahrenheit(value) {
-  return (value * 9) / 5 + 32
-}
-function celsiusToKelvin(value) {
-  return value + 273.15
-}
-function kelvinToCelsius(value) {
-  return value - 273.15
-}
-function fahrenheitToCelsius(value) {
-  return ((value - 32) * 5) / 9
-}
 function kilobyteToByte(value) {
   return value * 1024
 }
@@ -18,6 +6,18 @@ function megabyteToByte(value) {
 }
 function gigabyteToByte(value) {
   return megabyteToByte(value) * 1024
+}
+function celsiusToFahrenheit(value) {
+  return (value * 9) / 5 + 32
+}
+function fahrenheitToCelsius(value) {
+  return ((value - 32) * 5) / 9
+}
+function celsiusToKelvin(value) {
+  return value + 273.15
+}
+function kelvinToCelsius(value) {
+  return value - 273.15
 }
 module.exports = {
   celsiusToFahrenheit,
